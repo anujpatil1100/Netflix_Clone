@@ -1,12 +1,12 @@
 export const API_END_POINT = "http://localhost:8080/api/v1/user";
 
 export const options = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGJlZjViMDUzNWE3OGYwMjllMTQ0NDE5NTQ4MjM4MCIsInN1YiI6IjY1MDRhMjNkNTllOGE5MDExZWNhYTVjZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LTBaAb_2NPRGPr2HeGszyFDP-onLh-fiL7fzmnOFZUg'
-    }
-  };
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZDg4ODhlNDEyMzBmY2Q0ZTIwYWEwOWZlNjVjZjhmZiIsInN1YiI6IjY2MWI2ZTJmMGZiMzk4MDE4NTg5ZjUwNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rOM16MNDT_f_bIhZgX8vW1MlfLOWrKwcmoZ-yTdQkAk'
+  }
+}
 export const Now_Playing_Movie = "https://api.themoviedb.org/3/movie/now_playing";
 export const Popular_Movie = "https://api.themoviedb.org/3/movie/popular";
 export const Top_Rated_Movie = "https://api.themoviedb.org/3/movie/top_rated";
